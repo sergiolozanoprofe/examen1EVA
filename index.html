@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Incite | Perfumes</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="inicio">
+  <div class="anuncio">El arte de dejar huella · Descubre la colección Incite</div>
+
+  <header class="cabecera">
+    <a class="marca" href="#inicio">Incite<span>.</span></a>
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li class="con-submenu">
+          <a href="#coleccion">Perfumes</a>
+          <ul class="submenu">
+            <li><a href="#homme">Incite Homme</a></li>
+            <li><a href="#femme">Incite Femme</a></li>
+          </ul>
+        </li>
+        <li><a href="#filosofia">Filosofía</a></li>
+        <li><a href="#novedades">Novedades</a></li>
+      </ul>
+    </nav>
+    <a class="enlace-cabecera" href="#coleccion">Descubrir</a>
+  </header>
+
+  <main>
+    <section class="presentacion" aria-labelledby="titulo-principal">
+      <div class="presentacion-texto">
+        <p class="sobretitulo">Una esencia. Infinitas historias.</p>
+        <h1 id="titulo-principal">Deja huella <em>sin decir nada.</em></h1>
+        <p>La belleza de ser tú, en una fragancia que permanece.</p>
+        <a class="boton" href="#coleccion">Explorar la colección <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="presentacion-imagen" aria-hidden="true">
+        <span class="sello">L'essence<br>de vous</span>
+        <img src="img/femme_1.png" alt="">
+      </div>
+      
+    </section>
+
+    <section id="coleccion" class="seccion" aria-labelledby="titulo-coleccion">
+      <div class="seccion-cabecera">
+        <div>
+          <p class="sobretitulo">Una firma, dos universos</p>
+          <h2 id="titulo-coleccion">Encuentra tu esencia<span>.</span></h2>
+        </div>
+        <p>Dos fragancias creadas para acompañarte, allá donde te lleve el día.</p>
+      </div>
+
+      <div class="productos">
+        <article id="homme" class="producto">
+          <div class="producto-imagen">
+            <p class="numero">01 / HOMME</p>
+            <img src="img/homme_1.png" alt="Frasco de perfume Incite Homme" width="220" height="220">
+          </div>
+          <div class="producto-info">
+            <h3>Incite Homme</h3>
+            <p>Una fragancia intensa y elegante, creada para dejar huella.</p>
+            <ul class="notas">
+              <li>Bergamota</li>
+              <li>Vetiver</li>
+              <li>Ámbar</li>
+            </ul>
+            <p class="precio">79,00 € <span> / 100 ml</span></p>
+            <a class="enlace-producto" href="#universo-homme">Descubrir Homme <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article id="femme" class="producto">
+          <div class="producto-imagen">
+            <p class="numero">02 / FEMME</p>
+            <img src="img/femme_1.png" alt="Frasco de perfume Incite Femme" width="220" height="220">
+          </div>
+          <div class="producto-info">
+            <h3>Incite Femme</h3>
+            <p>Una fragancia luminosa y delicada, con una personalidad inolvidable.</p>
+            <ul class="notas">
+              <li>Mandarina</li>
+              <li>Jazmín</li>
+              <li>Vainilla</li>
+            </ul>
+            <p class="precio">79,00 € <span> / 100 ml</span></p>
+            <a class="enlace-producto" href="#novedades">Descubrir Femme <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="campana campana-femme" aria-labelledby="titulo-filosofia">
+      <div class="campana-imagen" aria-hidden="true">
+        <img src="img/ella.png" alt="">
+      </div>
+      <div class="campana-texto">
+        <p class="sobretitulo">La ciudad es tuya</p>
+        <h2 id="titulo-filosofia">Un instante.<br><em>Una huella.</em></h2>
+        <p>Creemos que una fragancia puede convertir un instante cotidiano en un recuerdo inolvidable.</p>
+        <p>«La verdadera esencia es la que dejas en los demás.»</p>
+        <a class="enlace-claro" href="#novedades">Forma parte de Incite <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="campana campana-homme" aria-labelledby="titulo-homme">
+      <div class="campana-texto">
+        <p class="sobretitulo">La fuerza de ser tú</p>
+        <h2 id="titulo-homme">Incite <em>Homme.</em></h2>
+        <p>Una esencia intensa para quienes encuentran su camino en cada paso.</p>
+        <p>«La confianza deja su propia huella.»</p>
+        <a class="enlace-claro" href="#novedades">Descubre el universo Incite <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="campana-imagen" aria-hidden="true">
+        <img src="img/el.png" alt="">
+      </div>
+    </section>
+
+    <section id="novedades" class="novedades" aria-labelledby="titulo-novedades">
+      <p class="sobretitulo">Un poco más cerca</p>
+      <h2 id="titulo-novedades">Lo extraordinario empieza aquí<span>.</span></h2>
+      <p>Recibe las novedades y déjate inspirar por el universo Incite.</p>
+      <form>
+        <label for="correo">Correo electrónico</label>
+        <input id="correo" name="correo" type="email" placeholder="tu@ejemplo.com" required>
+        <button type="button">Suscribirme <span aria-hidden="true">↗</span></button>
+      </form>
+      <p class="aviso">Formulario de demostración: no se envían ni se guardan datos.</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="marca">Incite<span>.</span></p>
+    <p>© Incite · Perfumes para dejar huella</p>
+    <a href="#coleccion">La colección</a>
+  </footer>
+
+  <a class="volver-arriba" href="#inicio" aria-label="Volver al inicio">↑</a>
+</body>
+</html>
